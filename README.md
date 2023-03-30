@@ -1,33 +1,35 @@
-# CT4AM Surface 
+# CT4AM Surface
 
-Surface analysis tool to analyze surfaces in XCT images 
-
-The tool allows to analyze the complete surface of an additively manufactured part containing undercuts and freeform surfaces.
-The results are mapped to the triangles of the input mesh, providing information how the surface quality is distributed over the part.
-
-Also, subsurface porosity parameters are calculated and mapped to the input mesh. 
+CT4AM Surface is a C++ tool used to analyze the complete surface of an additively manufactured part from XCT scans. It provides a detailed analysis of the surface quality and subsurface porosity parameters of the part, which are mapped onto the input mesh to show how the surface quality is distributed over the part.
 
 
-
-Cite
+## Cite
 
 To be done
 
+## Prerequisites
 
-Prerequisites
+- STL of the part: 
+  - It is recommended to use a finely meshed, isotropic meshed version of the geometry, which can be obtained by remeshing the geometry in MeshLab using isotropic explicit remeshing. 
+  - STL file should be in ASCII format!
 
-STL of the part: 
-- it is recommended to use a finely meshed, isotropic meshed version of the geometry, which can be obtained by remeshing the geometry in MeshLab using isotropic explicit remeshing. 
-- STL file should be in ASCII format!
+- XCT scan of the part:
+  - Should be in .mhd format.
+  - Should be aligned in the rotational axis to the orientation of the STL.
+  - The translation vector should be found using Paraview. It is needed to parametrize the program.
 
-XCT scan of the part
-- Should be in .mhd format.
-- should be aligned in the rotational axis to the orientation of the STL
-- the translation vector should be found using Paraview. It is needed to parametrize the program. 
+## Usage
+
+To use CT4AM Surface, follow these steps:
+
+./CT2Surface /path/to/stl_file /path/to/xct_file
 
 
+## Troubleshooting
 
+If you encounter any issues while using CT2Surface, please check the following:
 
-Troubleshooting
+- Ensure that the input files are in the correct format and meet the prerequisites listed above.
 
+If you are still experiencing issues, please feel free to open an issue on this GitHub repository.
 
