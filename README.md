@@ -24,7 +24,10 @@ To be done
 
 To use CT4AM Surface, follow these steps:
 
-./CT2Surface /path/to/stl_file /path/to/xct_file
+.\CT2Surface.exe -i .\XCT_file.mhd -m .\STL_file.stl -u "-12.4 -3.75 -3.725" -o "output.mhd" -a 10 -p 400 -v -w 2 -k -e -10
+
+To get a list of options, type 
+.\CT2Surface.exe -h
 
 
 ## Troubleshooting
