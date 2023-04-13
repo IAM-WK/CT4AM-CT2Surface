@@ -26,8 +26,7 @@ To be done
 
 
 ## Usage
-
-To use CT4AM Surface, follow these steps:
+Exemplary call of CT4AM CT2Surface:
 
 `.\CT2Surface.exe -i .\XCT_file.mhd -m .\STL_file.stl -u "-12.4 -3.75 -3.725" -o "output.mhd" -a 10 -p 400 -v -w 2 -k -e -10`
 
