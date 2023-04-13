@@ -1,8 +1,8 @@
-# CT4AM Surface
+# CT4AM CT2Surface
 
 ![graphical abstract](./doc/GrabsV1.png)
 
-CT4AM Surface is a C++ tool used to analyze the complete surface of an additively manufactured part from XCT scans. It provides a detailed analysis of the surface quality and subsurface porosity parameters of the part, which are mapped onto the input mesh to show how the surface quality is distributed over the part.
+CT4AM CT2Surface is a C++ tool used to analyze the complete surface of an additively manufactured part from XCT scans. It provides a detailed analysis of the surface quality and subsurface porosity parameters of the part, which are mapped onto the input mesh to show how the surface quality is distributed over the part.
 
 
 ## Cite
