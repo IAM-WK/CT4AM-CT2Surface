@@ -22,7 +22,7 @@ To be done
 
 ## Download
 
-[download](https://github.com/IAM-WK/CT4AM_Surface/releases/download/v0.9/CT2Surface.exe)
+[Download](https://github.com/IAM-WK/CT4AM_Surface/releases/download/v0.9/CT2Surface.exe)
 
 
 ## Usage
