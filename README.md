@@ -20,6 +20,11 @@ To be done
   - Should be aligned in the rotational axis to the orientation of the STL.
   - The translation vector should be found using Paraview. It is needed to parametrize the program.
 
+## Download
+
+[download](https://github.com/IAM-WK/CT4AM_Surface/releases/download/v0.9/CT2Surface.exe)
+
+
 ## Usage
 
 To use CT4AM Surface, follow these steps:
